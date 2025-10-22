@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navo — O'z ohangingni tingla</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">🎵 Navo</div>
+    <div class="subtitle">O'z ohangingni tingla</div>
+  </header>
+
+  <main class="container">
+    <section class="player-card">
+      <div class="art-circle"></div>
+      <div class="song-info">
+        <div id="song-title" class="song-title">Dil so'zi — Maftuna</div>
+        <div id="song-artist" class="song-artist">Maftuna</div>
+      </div>
+
+      <audio id="audio" preload="none"></audio>
+
+      <div class="controls">
+        <button id="prev" aria-label="oldingi">⏮️</button>
+        <button id="play" aria-label="play">▶️</button>
+        <button id="next" aria-label="keyingi">⏭️</button>
+      </div>
+
+      <div class="playlist" id="playlist">
+        <!-- playlist items injected by JS -->
+      </div>
+    </section>
+
+    <footer class="notes">
+      <p>Bu demo — keyinchalik ishlovchi yuklash va video funksiyalari qo'shiladi.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
