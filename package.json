@@ -1,0 +1,13 @@
+{
+  "name": "borplay-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.6.7"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
